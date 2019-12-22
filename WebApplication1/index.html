@@ -3,49 +3,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Vidbg.js Demo</title>
+  <title>1932.LA </title>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="insideElementDemo.css" rel="stylesheet" type="text/css">
   <link href="vidbg.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-  <div id="container">
-    <header>
-      <h1>vidbg.js</h1>
-    </header>
-    <div id="main">
-      <section class="section-first">
-        <div class="text">
-          <h1>Video Background</h1>
+<body style="background-color:lightgray">
+    <div id="container">
+        <header>
+            <h1>1932.LA</h1>
+            <h2>Dispensary and Manufacturing</h2>
+            <h4>1932 Scott Ave, Los Angeles CA</h4>
+        </header>
+        <div id="main">
+            <section class="section-first">
+                <div style="background-position:center;width:300px;height:200px; background-image:url('logo.png')">
+                </div>
+
+            </section>
         </div>
-      </section>
-      <section class="section-second">
-        <div class="text">
-          <h1>Video Background + Overlay</h1>
-        </div>
-      </section>
     </div>
-  </div>
-  
-  <script src="vidbg.js"></script>
+    <div style="width:100%;height:700px;background-image:url('logosign.tif');background-position:center;background-repeat:no-repeat"> </div>
+    <h1>Coming soon </h1>
+    <div style="width:100%;height:1200px;background-image:url('Retail.jpg');background-position:center;background-repeat:no-repeat"> </div>
+    <div style="width:100%;height:700px;background-image:url('cart2.png');background-position:center;background-repeat:no-repeat"> </div>
 
-  <script type="text/javascript">
-    var sectionFirst = new vidbg('.section-first', {
-      mp4: 'echopark.mp4',
-      webm: 'echopark.webm',
-      poster: null
-    })
+    <script src="vidbg.js"></script>
+    <script type="text/javascript">
+        var sectionFirst = new vidbg('.section-first', {
+            mp4: 'echopark.mp4',
+            webm: 'echopark.webm',
+            poster: 'LA.png'
+        })
 
-    var sectionSecond = new vidbg('.section-second', {
-      mp4: 'abstract.mp4',
-      webm: 'abstract.webm',
-      poster: null,
-      overlay: true,
-      overlayColor: '#03A9F4',
-      overlayAlpha: 0.8
-    })
-  </script>
 
+    </script>
 </body>
 </html>

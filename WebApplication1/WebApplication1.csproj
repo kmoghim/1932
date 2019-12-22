@@ -71,6 +71,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="logo.png" />
+    <Content Include="logosign.tif" />
+    <Content Include="logonum.tif" />
     <Content Include="Abstract.mp4" />
     <Content Include="Abstract.webm" />
     <Content Include="cart.png" />
