@@ -71,6 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1932trans.gif" />
     <Content Include="1932trans.png" />
     <Content Include="LA1932.jpg" />
     <Content Include="logo.png" />
